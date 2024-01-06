@@ -1,0 +1,4 @@
+- start with state object and making it work programatically with tests 
+
+- then move to infra, package as a container, host on aws fargate, maybe even add a URL 
+

@@ -1,0 +1,45 @@
+{
+    "deal": {
+        "description": "distributes cards to a given players hand",
+        "requirements": [
+            ""
+        ],
+        "performedBy": "orchestration"
+    },
+    "makeBid": {
+        "description": "Shuffles deck and distributes cards to each players hand",
+        "requirements": [
+            "currrent stage is bid",
+            "bid higher than other bids"
+        ],
+        "performedBy": "user"
+    },
+    "updateStage": {
+        "description": "Changes the stage to next",
+        "requirements": [],
+        "performedBy": "orchestration"
+    },
+    "setTrumpSuit": {
+        "description": "Winner of bid chooses the trump suit",
+        "requirements": [],
+        "performedBy": "user"
+    },
+    "throw": {
+        "description": "Removes cards from users hand, replaces with new from the dec ",
+        "requirements": [
+            "current stage is throw"
+        ],
+        "performedBy": "user"
+    },
+    "playCard":{
+        "description": "User plays a card from hand",
+        "requirements": "user is active turn",
+        "performedBy": "user"
+    },
+    "evaluateHand":{
+        "description" : "processes played cards and assigns round score",
+        "requirements": "user is active turn",
+        "performedBy": "user"
+    }
+
+}

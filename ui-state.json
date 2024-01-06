@@ -1,0 +1,14 @@
+{
+    "hand": [],
+    "currentPlayerTurn": "A",
+    "gameScore": {
+        "A": 1,
+        "B": 2
+    },
+    "currentStage": "",
+    "roundScore": {
+        "A": 1,
+        "B": 2
+    },
+    "playedCards":[]
+}

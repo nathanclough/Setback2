@@ -1,0 +1,39 @@
+{
+    "team1": [
+        "a",
+        "c"
+    ],
+    "team2": [
+        "b",
+        "d"
+    ],
+    "currentHands": {
+        "a": [],
+        "c": [],
+        "b": [],
+        "d": []
+    },
+    "bid": {
+        "player": "a",
+        "amount": 2
+    },
+    "deck": [
+        "1S",
+        "2C",
+        "3D",
+        "4H",
+        "JO"
+    ],
+    "currentStage": "bid,throw,hand",
+    "currentDealer": "A",
+    "currentPlayerTurn": "A",
+    "playedCards": [],
+    "gameScore": {
+        "A": 1,
+        "B": 2
+    },
+    "roundScore": {
+        "A": 1,
+        "B": 2
+    }
+}
