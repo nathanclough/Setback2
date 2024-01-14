@@ -12,9 +12,6 @@ const spadesCardMap = new Map<Value, string>([["A", "🂡"], ["K", "🂮"]])
 
 const suitMap = new Map<Suit, Map<Value, string>>([["spades", spadesCardMap]])
 
-export const Card = ({ card, constraintRef }: { card: Card, constraintRef: any }) => {
-    return <motion.div
-            drag
-            dragConstraints={constraintRef}        
-            className="card">{suitMap.get(card.suit)?.get(card.value)}</motion.div> 
+export const Card = ({ card }: { card: Card }) => {
+    return <div className="card">{suitMap.get(card.suit)?.get(card.value)}</div>
 }
